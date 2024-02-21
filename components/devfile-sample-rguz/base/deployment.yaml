@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rguz
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/abhindas-tenant/devfile-sample-1/devfile-sample-rguz@sha256:2ae55eb74566598a83283ebbc59007cc93a1940e54862207e5116d396b8beec7
+      - image: quay.io/redhat-user-workloads/abhindas-tenant/devfile-sample-1/devfile-sample-rguz@sha256:043cce10a77d85bf7547317a72f66c869d9e30e591a3a8eefa4b819b2fa78663
         name: my-nodejs
         ports:
         - containerPort: 3001
