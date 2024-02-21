@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rguz
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/abhindas-tenant/devfile-sample-1/devfile-sample-rguz@sha256:2ae55eb74566598a83283ebbc59007cc93a1940e54862207e5116d396b8beec7
+        name: my-nodejs
+        resources: {}
+status: {}
